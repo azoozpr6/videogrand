@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    
+
+}
+#img{
+    background: url(ramaden.jpg)  no-repeat  ;
+    background-size: cover;
+    background-position: center;
+    height: 752px;
+    border-radius: 3px;
+}
+#hh{
+    
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: rgba(22, 129, 174, 0.3);
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 35px;
+}
+.logo{
+   
+    cursor: pointer;
+    padding: 28px;
+    color: rgba(22, 129, 174, 2);
+}
+
+ul li div{
+    cursor: pointer;
+
+    font-size: larger;
+    color: rgba(22, 129, 194,10);
+    text-decoration: none;
+    transition: 0.5s;
+}
+ul li div:hover{
+   transform: scale(1.5,1.5);
+    color: rgb(239, 250, 82);
+}
+
+
